@@ -1,0 +1,42 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.10
+  - scikit-learn  # latest version
+  - ipykernel
+  - nb_conda_kernels
+  - pip
+  - blas
+  - bzip2
+  - ca-certificates
+  - icc_rt
+  - intel-openmp
+  - joblib
+  - libexpat
+  - libffi
+  - liblzma
+  - libsqlite
+  - libzlib
+  - mkl
+  - mkl-service
+  - mkl_fft
+  - mkl_random
+  - numpy
+  - openssl
+  - scipy
+  - setuptools
+  - tbb
+  - threadpoolctl
+  - tk
+  - tzdata
+  - ucrt
+  - vc
+  - vc14_runtime
+  - vs2015_runtime
+  - wheel
+prefix: C:\Users\jorbe\miniconda3\envs\project-env
